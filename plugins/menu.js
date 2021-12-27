@@ -12,6 +12,7 @@ let tags = {
   'fun': 'MENU FUN',
   'sticker': 'MENU CONVERT',
   'maker': 'MENU MAKER',
+  'jadibot': 'NUMPANG BOT',
   'github': 'MENU GITHUB',
   'internet': 'INTERNET',
   'kerang': 'MENU KERANG',
@@ -26,31 +27,21 @@ let tags = {
 const defaultMenu = {
   before: `
 ╭────ꕥ %me ꕥ────
-│✾ Version: %version
-│✾ Library: Baileys-MD
-│✾ Runtime: %uptime
-╰❑
-╭─❑ 「 INFO USER 」 ❑──
-│ ✾ Name: %name
-│ ✾ Status: ---
+│ ✾ Version: %version
+│ ✾ Library: Baileys-MD
+│ ✾ Runtime: %uptime
 │ ✾ Limit: %limit
 │ ✾ Money: %money
 │ ✾ Exp: %totalexp
 │ ✾ Level: %level
 │ ✾ Role: %role
 ╰❑
-╭─❑ 「 INFORMASI 」 ❑──
-│ Bot ini masih tahap beta
-│ apabila ada bug/eror harap
-│ lapor ke owner
-╰❑
 %readmore`.trimStart(),
   header: '╭─「 %category 」',
   body: '│ • %cmd %islimit %isPremium',
   footer: '╰────\n',
   after: `
-*%npmname@^%version*
-${'```%npmdesc```'}
+${'```wa.me/6283805279906```'}
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p }) => {
@@ -162,36 +153,36 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
            hydratedFooterText: wm,
            hydratedButtons: [{
              urlButton: {
-               displayText: '💠 Source Code',
-               url: 'https://github.com/ilmanhdyt/ShiraoriBOT-Md'
+               displayText: 'S U B S C R I B E',
+               url: 'https://youtube.com/c/IsmailKurama'
              }
 
            },
              {
              callButton: {
-               displayText: 'Nomor Owner',
-               PhoneNumber: '0813-5104-7727'
+               displayText: 'SAVE - I S M A I L',
+               PhoneNumber: '0838-0527-9906'
              }
 
            },
                {
              quickReplyButton: {
-               displayText: '🧒 Owner',
-               id: '.owner',
+               displayText: '❤️',
+               id: '.menu',
              }
 
            },
                {
              quickReplyButton: {
-               displayText: '💲 Donasi',
-               id: '.donasi',
+               displayText: '🖤',
+               id: '.menu',
              }
 
            },
            {
              quickReplyButton: {
-               displayText: '📍 Credits',
-               id: '.tqto',
+               displayText: '💔',
+               id: '.menu',
              }
            }]
          }
